@@ -7,7 +7,7 @@ export function Home() {
     return (
         <>
         <Header />
-        <p>Metais</p>
+        <h1>Metais</h1>
         </>
     )
 }

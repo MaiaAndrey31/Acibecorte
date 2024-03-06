@@ -7,10 +7,10 @@ border: 1none ;
 color: ${theme.colors.white};
 width: 13rem;
 height: 3.250rem;
-border-radius: 1rem;
+border-radius: 0.750rem;
 transition: all 200ms;
-font-size: 1.125rem;
-font-weight: 800;
+font-size: 1.05rem;
+font-weight: 700;
 
 &:hover{
 background-color: transparent;

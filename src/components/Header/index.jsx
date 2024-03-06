@@ -25,14 +25,14 @@ function Header() {
         <HeaderInfo>
           <Info>
             <div>
-              <FaPhoneAlt color={theme.colors.white} target="blank" size={25} />
+              <FaPhoneAlt color={theme.colors.white} target="blank" size={20} />
               <a href="tel:+551145441507" target="blank">
                 (11)4544-1507
               </a>
               <FaPhoneAlt
                 color={theme.colors.white}
                 target="blank" 
-                size={25}
+                size={20}
                 marginRight={0}
               />
               <a href="tel:+551145441075" target="blank">
@@ -44,7 +44,7 @@ function Header() {
                 href="mailto: acibecorte@acibecorte.com.br"
                 target="blank"
                 color={theme.colors.white}
-                size={25}
+                size={30}
               />
               <a href="mailto: acibecorte@acibecorte.com.br" target="blank">
                 acibecorte@acibecorte.com.br

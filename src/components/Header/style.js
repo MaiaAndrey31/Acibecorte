@@ -74,7 +74,7 @@ export const HeaderMenu = styled.div`
     width: 100%;
   }
   .button {
-padding: 1rem 1rem;
+padding: .7rem .7rem;
   }
 
   a {
@@ -98,7 +98,7 @@ align-items: center;
 
 &:hover {
         cursor: pointer;
-        color: ${theme.colors.dark};
+        
     }
 
 `

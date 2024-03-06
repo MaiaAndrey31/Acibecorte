@@ -11,13 +11,13 @@ export const Container = styled.div`
 `
 
 export const Image = styled.div`
-  max-width: 16.25rem;
+  max-width: 24rem;
   display: flex;
   align-items: center;
   justify-content: center;
 
   img {
-    width: 16.25rem;
+    width: 24rem;
     height: auto;
     padding-left: 1rem;
   }

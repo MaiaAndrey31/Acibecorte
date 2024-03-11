@@ -17,7 +17,7 @@ export default createGlobalStyle`
 body {
     -webkit-font-smoothing: antialiased;
     
-        background-color: ${theme.colors.neutral};
+        background-color: ${theme.colors.dark};
         font-family: "Poppins", sans-serif;
         font-optical-sizing: auto;
         font-style: normal;

@@ -1,4 +1,5 @@
 import  Header  from "../../components/Header";
+import Slider from "../../components/Slider";
 
 
 
@@ -7,7 +8,7 @@ export function Home() {
     return (
         <>
         <Header />
-        <h1>Metais</h1>
+        <Slider />
         </>
     )
 }

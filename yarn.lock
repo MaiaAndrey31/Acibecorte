@@ -276,6 +276,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@coreui/coreui@npm:^4.3.2":
+  version: 4.3.2
+  resolution: "@coreui/coreui@npm:4.3.2"
+  dependencies:
+    postcss-combine-duplicated-selectors: ^10.0.3
+  peerDependencies:
+    "@popperjs/core": ^2.11.6
+  checksum: 88fc70f4f681bb796e1d81ca8472a3d36bfcf92866fc7c6810ead850bc371c99bca123a94abb0fafdf2935972d130005cd62b485406631cfd9abd8f38e14be15
+  languageName: node
+  linkType: hard
+
+"@coreui/react@npm:^4.11.1":
+  version: 4.11.1
+  resolution: "@coreui/react@npm:4.11.1"
+  peerDependencies:
+    "@coreui/coreui": 4.3.0
+    react: ">=17"
+    react-dom: ">=17"
+  checksum: 7a30c3bbefaf865e24a0aa30412a15b74d555fb5f7df1d570acc2ccbfcd73335a057d382c2dceb1561a61a98ce689e4baf0b7c2609cd634b69221f15a1b1b067
+  languageName: node
+  linkType: hard
+
 "@emotion/is-prop-valid@npm:1.2.1":
   version: 1.2.1
   resolution: "@emotion/is-prop-valid@npm:1.2.1"
@@ -866,6 +888,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "acibecorte@workspace:."
   dependencies:
+    "@coreui/coreui": ^4.3.2
+    "@coreui/react": ^4.11.1
     "@types/react": ^18.2.56
     "@types/react-dom": ^18.2.19
     "@vitejs/plugin-react": ^4.2.1
@@ -884,6 +908,7 @@ __metadata:
     react-dom: ^18.2.0
     react-icons: ^5.0.1
     styled-components: ^6.1.8
+    swiper: ^11.0.7
     vite: ^5.1.4
   languageName: unknown
   linkType: soft
@@ -1345,6 +1370,15 @@ __metadata:
     css-color-keywords: ^1.0.0
     postcss-value-parser: ^4.0.2
   checksum: 263be65e805aef02c3f20c064665c998a8c35293e1505dbe6e3054fb186b01a9897ac6cf121f9840e5a9dfe3fb3994f6fcd0af84a865f1df78ba5bf89e77adce
+  languageName: node
+  linkType: hard
+
+"cssesc@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "cssesc@npm:3.0.0"
+  bin:
+    cssesc: bin/cssesc
+  checksum: f8c4ababffbc5e2ddf2fa9957dda1ee4af6048e22aeda1869d0d00843223c1b13ad3f5d88b51caa46c994225eacb636b764eb807a8883e2fb6f99b4f4e8c48b2
   languageName: node
   linkType: hard
 
@@ -3316,6 +3350,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss-combine-duplicated-selectors@npm:^10.0.3":
+  version: 10.0.3
+  resolution: "postcss-combine-duplicated-selectors@npm:10.0.3"
+  dependencies:
+    postcss-selector-parser: ^6.0.4
+  peerDependencies:
+    postcss: ^8.1.0
+  checksum: 45c3dff41d0cddb510752ed92fe8c7fc66e5cf88f4988314655419d3ecdf1dc66f484a25ee73f4f292da5da851a0fdba0ec4d59bdedeee935d05b26d31d997ed
+  languageName: node
+  linkType: hard
+
+"postcss-selector-parser@npm:^6.0.4":
+  version: 6.0.15
+  resolution: "postcss-selector-parser@npm:6.0.15"
+  dependencies:
+    cssesc: ^3.0.0
+    util-deprecate: ^1.0.2
+  checksum: 57decb94152111004f15e27b9c61131eb50ee10a3288e7fcf424cebbb4aba82c2817517ae718f8b5d704ee9e02a638d4a2acff8f47685c295a33ecee4fd31055
+  languageName: node
+  linkType: hard
+
 "postcss-value-parser@npm:^4.0.2":
   version: 4.2.0
   resolution: "postcss-value-parser@npm:4.2.0"
@@ -3971,6 +4026,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"swiper@npm:^11.0.7":
+  version: 11.0.7
+  resolution: "swiper@npm:11.0.7"
+  checksum: dfb82ff649ff22a612bf6a55f2351caad314e394f1ed8327a994021ac2297072f807d4164f861d33fb52b80bcc502e35138f8a988ca11552c43dfe93fc302160
+  languageName: node
+  linkType: hard
+
 "synckit@npm:^0.8.6":
   version: 0.8.8
   resolution: "synckit@npm:0.8.8"
@@ -4153,6 +4215,13 @@ __metadata:
   dependencies:
     punycode: ^2.1.0
   checksum: 7167432de6817fe8e9e0c9684f1d2de2bb688c94388f7569f7dbdb1587c9f4ca2a77962f134ec90be0cc4d004c939ff0d05acc9f34a0db39a3c797dada262633
+  languageName: node
+  linkType: hard
+
+"util-deprecate@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "util-deprecate@npm:1.0.2"
+  checksum: 474acf1146cb2701fe3b074892217553dfcf9a031280919ba1b8d651a068c9b15d863b7303cb15bd00a862b498e6cf4ad7b4a08fb134edd5a6f7641681cb54a2
   languageName: node
   linkType: hard
 

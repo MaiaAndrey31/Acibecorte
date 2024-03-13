@@ -4,7 +4,7 @@ import PlasmaCorte from '../../assets/corte-plasma.jpg'
 function Services() {
   return (
     <C.Container>
-      <h1>Nossos Serviços</h1>
+      <h1>Serviços</h1>
 
       <C.PartOne>
         <p>
@@ -28,20 +28,24 @@ function Services() {
           uma infraestrutura completa, estamos prontos para atender desde
           projetos pequenos até o corte de peças de grandes dimensões,
           garantindo sempre a mais alta qualidade e confiabilidade. Localizada
-          estrategicamente em Suzano-SP, com fácil acesso a Rodovia Índio
+          estrategicamente na cidade de Suzano na Grande SP, com fácil acesso a Rodovia Índio
           Tibiriçá, a Acibecorte se destaca como a escolha ideal para suas
           necessidades de corte em chapas.
         </p>
         <C.ListBox>
-        <ul>
-          <li>Corte Plasma CNC</li>
-          <li>Oxicorte</li>
-          <li>Dobra</li>
-          <li>Caldeiraria Leve</li>
-          <li>Projetos Especiais</li>
-        </ul>
+        
+          <h6><span>➟</span> Corte Plasma CNC</h6>
+          <h6><span>➟</span> Oxicorte</h6>
+          <h6><span>➟</span> Dobra</h6>
+          <h6><span>➟</span> Caldeiraria Leve</h6>
+          <h6><span>➟</span> Projetos Especiais</h6>
+        
         </C.ListBox>
+        <C.ImageService>
+
         <img src={PlasmaCorte} />
+        </C.ImageService>
+        
       </C.PartTwo>
     </C.Container>
   )

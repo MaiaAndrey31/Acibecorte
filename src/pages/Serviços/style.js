@@ -59,10 +59,43 @@ p {
 `
 
 export const ListBox = styled.div`
-height: 100%;
-max-width: 20rem;
+min-height: 31.25rem;
+min-width: 18.75rem;
+border: 8px dotted ${theme.colors.dark};
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+text-align: left;
+padding: 2.5rem;
+border-radius: 1.5rem;
 
 
+
+h6 {
+    font-size: 2.2rem;
+    line-height: 5rem;
+    color: ${theme.colors.primary};
+
+
+  }
+span {
+  font-size: 2.7rem;
+}
+
+`
+
+export const ImageService = styled.div`
+min-height: 31.25rem;
+min-width: 31.25rem;
+border-radius: 50%;
+border: 1rem dashed ${theme.colors.secondary};
+opacity: 0.6;
+img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
 `
 
 

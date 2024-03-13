@@ -1,4 +1,6 @@
-import { Home } from "./pages/Home";
+
+import  Home  from "./pages/Home";
+import  Services  from "./pages/Serviços";
 import GlobalStyles from "./styles/GlobalStyles";
 
 function App() {
@@ -8,6 +10,7 @@ function App() {
     <>
     <GlobalStyles />
      <Home />
+     <Services />
     </>
   )
 }

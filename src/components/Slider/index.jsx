@@ -6,6 +6,7 @@ import 'swiper/css'
 import './style.css'
 import OxiImg from '../../assets/oxicorte.jpg'
 import OxiImg2 from '../../assets/oxicorte1.jpg'
+import OxiImg3 from '../../assets/oxicorte3.jpg'
 import TextBox from '../TextBox'
 
 function Slider() {
@@ -59,7 +60,7 @@ function Slider() {
         </SwiperSlide>
         <SwiperSlide className="item">
           <div className="imageBox">
-            <img src={OxiImg} />
+            <img src={OxiImg3} />
           </div>
           <div className="textBox">
             {' '}

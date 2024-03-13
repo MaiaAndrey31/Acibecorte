@@ -5,7 +5,7 @@ import {Container} from './style.js'
 
 
 
-export function Home() {
+ function Home() {
     return (
         <Container >
         <Header />
@@ -13,3 +13,5 @@ export function Home() {
         </Container>
     )
 }
+
+export default Home

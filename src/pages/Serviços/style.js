@@ -49,19 +49,24 @@ height: max-content;
 
 justify-content: space-around;
 
-p {
-  font-size: 1.2rem;
-  line-height: 2rem;
+
+  p {
+  font-size: 1.5rem;
+  line-height: 2.2rem;
   font-weight: 600;
   max-width: 35rem;
   color: ${theme.colors.dark};
+  padding-top: 2.5rem;
 }
+
+
+
 `
 
 export const ListBox = styled.div`
 min-height: 31.25rem;
 min-width: 18.75rem;
-border: 8px dotted ${theme.colors.dark};
+
 display: flex;
 flex-direction: column;
 align-items: flex-start;

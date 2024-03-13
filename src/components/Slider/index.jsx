@@ -36,7 +36,7 @@ function Slider() {
           <div className="textBox">
             {' '}
             <TextBox
-              title="Oxicorte"
+              title="Corte Plasma CNC"
               content={
                 'Lorem, ipsum dolor sit amet consectetur adipisicing elit delectus eaque libero quaerat at hic mollitia soluta iste perspiciatis laborum, quam magni illum quis a tempora aspernaturcorporis dolorum nostrum!'
               }

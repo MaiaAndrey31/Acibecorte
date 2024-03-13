@@ -22,6 +22,7 @@ function Services() {
       </C.PartOne>
 
       <C.PartTwo>
+        <div>
         <p>
           Oferecemos serviços especializados de corte em chapas, abrangendo uma
           ampla variedade de espessuras. Com uma equipe altamente qualificada e
@@ -32,6 +33,7 @@ function Services() {
           Tibiriçá, a Acibecorte se destaca como a escolha ideal para suas
           necessidades de corte em chapas.
         </p>
+        </div>
         <C.ListBox>
         
           <h6><span>➟</span> Corte Plasma CNC</h6>

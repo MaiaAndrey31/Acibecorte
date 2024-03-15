@@ -1,25 +1,32 @@
 import * as C from './style'
 import VideoBG from '../../assets/acibecorte.mp4'
+import ButtonWhats from '../../components/ButtonWhats';
 function Company() {
   return (
     <C.Container>
-  
-      <div class="background">
-            <video loop autoplay muted class="conteudo-background ">
-                <source src="../../assets/acibecorte.mp4"/>
-            </video>
-             
-            <div class="mascara-video"></div>
-        </div>
+      
+      <div className="background">
+        <video
+          loop={true}
+          autoPlay={true}
+          muted= {true}
+          className="conteudo-background "
+        >
+          <source src={VideoBG} />
+        </video>
 
+        <div className="mascara-video"></div>
+      </div>
+      <div className="content">
         <h1>Empresa</h1>
         <p>
           A Acibecorte é uma empresa sólida e conceituada especialista no
-          serviço de oxicorte que atua no mercado desde 2004. A Acibecorte
-          proporciona aos seus Clientes a redução de custos, otimização do tempo
-          nos processos de fabricação de produtos e serviços.
+          serviço de oxicorte e Plasma CNC que atua no mercado desde 2004.
+          Proporcionando aos seus Clientes a redução de custos, otimização do
+          tempo nos processos de fabricação de produtos e serviços de qualidade.
         </p>
-  
+        <div><ButtonWhats /></div>
+      </div>
     </C.Container>
   )
 }

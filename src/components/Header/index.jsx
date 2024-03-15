@@ -62,7 +62,7 @@ function Header() {
             <a href="">HOME</a>
             <a href=""> SERVIÇOS</a>
             <a href=""> EMPRESA</a>
-            <a href=""> FAQ</a>
+            <a href=""> MISSÃO</a>
             <a href=""> CONTATO</a>
           </div>
           <div className="button">

@@ -1,7 +1,6 @@
 import { styled } from 'styled-components'
 import { theme } from '../../styles/theme'
 
-
 export const Container = styled.div`
   background-color: ${theme.colors.primary};
   width: 100%;
@@ -44,37 +43,38 @@ export const Info = styled.div`
     display: flex;
     gap: 1.5rem;
     padding-top: 0.125rem;
-    
-  
   }
   a {
     font-size: 1.25rem;
     text-decoration: none;
     color: ${theme.colors.white};
-    padding-left: .0125rem;
+    padding-left: 0.0125rem;
 
     &:hover {
-        cursor: pointer;
-        color: ${theme.colors.dark};
+      cursor: pointer;
+      color: ${theme.colors.dark};
     }
-   
   }
-  
 `
 export const HeaderMenu = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  
+
   .menu {
     display: flex;
+
     align-items: center;
     justify-content: space-around;
     width: 100%;
+
+    a {
+      font-size: 1.5rem;
+    }
   }
   .button {
-padding: .7rem .7rem;
+    padding: 0.7rem 0.7rem;
   }
 
   a {
@@ -84,23 +84,18 @@ padding: .7rem .7rem;
     text-decoration: none;
 
     &:hover {
-        cursor: pointer;
-        color: ${theme.colors.dark};
+      cursor: pointer;
+      color: ${theme.colors.dark};
     }
   }
-
 `
 
 export const Icons = styled.div`
-display: flex;
-gap: 2rem;
-align-items: center;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
 
-&:hover {
-        cursor: pointer;
-        
-    }
-
+  &:hover {
+    cursor: pointer;
+  }
 `
-
-

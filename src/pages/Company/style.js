@@ -3,9 +3,11 @@ import { theme } from '../../styles/theme'
 
 export const Container = styled.div`
   display: flex;
+  gap: 1rem;
   height: 100vh;
   align-items: center;
-  justify-content: space-around;
+  
+  
   
 
   .background {
@@ -43,7 +45,9 @@ export const Container = styled.div`
     width: 40.625rem;
     border: 0.3rem solid ${theme.colors.white};
     border-radius: 2rem;
-    padding: 3rem ;
+    padding: 2rem ;
+    text-align: center;
+    margin-left: 3rem;
    
 
     h1 {

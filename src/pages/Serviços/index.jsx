@@ -21,10 +21,13 @@ function Services() {
         </p>
       </C.PartOne>
 
+      <h2>Especializados em:</h2>
+
       <C.PartTwo>
+       
         <div>
         <p>
-          Oferecemos serviços especializados de corte em chapas, abrangendo uma
+          Corte em chapas, abrangendo uma
           ampla variedade de espessuras. Com uma equipe altamente qualificada e
           uma infraestrutura completa, estamos prontos para atender desde
           projetos pequenos até o corte de peças de grandes dimensões,
@@ -34,6 +37,9 @@ function Services() {
           necessidades de corte em chapas.
         </p>
         </div>
+
+        <C.Division/>
+        
         <C.ListBox>
         
           <h6><span>➟</span> Corte Plasma CNC</h6>
@@ -43,6 +49,9 @@ function Services() {
           <h6><span>➟</span> Projetos Especiais</h6>
         
         </C.ListBox>
+
+        <C.Division/>
+        
         <C.ImageService>
 
         <img src={PlasmaCorte} />

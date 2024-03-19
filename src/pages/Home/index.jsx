@@ -11,6 +11,7 @@ import {Container} from './style.js'
         <Header />
         <Slider />
         </Container>
+        
     )
 }
 

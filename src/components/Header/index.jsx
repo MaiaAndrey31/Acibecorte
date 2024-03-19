@@ -5,6 +5,7 @@ import * as C from './style'
 import logoWhite from '../../assets/logoWhite.png'
 import { theme } from '../../styles/theme'
 import Button from '../Button'
+
 function Header() {
   return (
     <C.Container>

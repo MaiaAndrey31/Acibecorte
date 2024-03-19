@@ -11,6 +11,7 @@ function Contact(){
                 <h3>Fale conosco</h3>
                 <h3>Telefone: (11)4544-1507 ou (11)4544-1075</h3>
                 </C.infoContact>
+               
             
         </C.Container>
     )

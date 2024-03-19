@@ -1,0 +1,42 @@
+
+
+@keyframes animate-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(51, 204, 102, 0.7), 0 0 0 0 rgba(51, 204, 102, 0.7);
+  }
+  40% {
+    box-shadow: 0 0 0 50px rgba(51, 204, 102, 0), 0 0 0 0 rgba(51, 204, 102, 0.7);
+  }
+  80% {
+    box-shadow: 0 0 0 50px rgba(51, 204, 102, 0), 0 0 0 30px rgba(51, 204, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(51, 204, 102, 0), 0 0 0 30px rgba(51, 204, 102, 0);
+  }
+}
+
+.pulse{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 62px;
+  height: 62px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #00ED64;
+
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  z-index: 12;
+  cursor: pointer;
+
+  animation: animate-pulse 3s linear infinite;
+}
+
+
+img {
+  height: 45px;
+  width: 45px;
+}

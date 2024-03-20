@@ -50,13 +50,12 @@ function Footer() {
           <div className="maps">
             <iframe
               id="map-canvas"
-              class="map_part"
-              width="480"
-              height="250"
-              frameborder="0"
-              scrolling="no"
-              marginheight="0"
-              marginwidth="0"
+              className="map_part"
+              width="100%"
+              height="100%"
+              frameBorder="0"
+              
+              
               src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=Rua Virgílio Gonçalves Capella, 502 - Cháraca Estância Paulista - CEP 08653-025 - Suzano - SP&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
             >
               Powered by{' '}

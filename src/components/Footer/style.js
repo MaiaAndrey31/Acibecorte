@@ -36,7 +36,6 @@ width:100%;
 gap: 2rem;
 
 .maps {
-   
     min-width: 50%;
     min-height:50%;
 }

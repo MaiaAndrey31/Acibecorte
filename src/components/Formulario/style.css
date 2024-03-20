@@ -12,14 +12,14 @@ input {
   border: 1px solid #c1c7c6;
   padding: 28px 20px 28px 20px;
   color: #e8edeb;
-  background: transparent;
-  background-color: transparent;
+  
+  background-color: #0f0f6edc;
   outline: none;
   font-size: 1.2rem;
 }
 
 input:-webkit-autofill {
-  -webkit-box-shadow: 0 0 0 50px #000055dc inset; /* aqui muda sua cor do fundo */
+  -webkit-box-shadow: 0 0 0 50px #0f0f6edc inset; /* aqui muda sua cor do fundo */
   -webkit-text-fill-color: #e8edeb; /* Cor do texto */
 }
 
@@ -54,15 +54,13 @@ textarea {
   border: 1px solid #c1c7c6;
   padding: 21px;
   font-size: 1.2rem;
-  background: transparent;
-  background-color: transparent;
+  
+  background-color: #0f0f6edc;
   color: #e8edeb;
   outline: none;
+  
 }
 
- textarea:focus {
-  background: #000055dc;
-}
 
 button#send {
   margin: auto;
@@ -89,6 +87,4 @@ button#send:hover {
 }
 
 
-#input-info:focus {
-  background-color: #e8edeb;
-}
+

@@ -6,6 +6,7 @@ import GlobalStyles from "./styles/GlobalStyles";
 import Company from "./pages/Company";
 import ValuesPage from "./pages/Values";
 import BtnWhatsPulse from "./components/ButtonWhatsPulse"
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
      <Company />
      <ValuesPage />
      <Contact />
+     <Footer />
      <BtnWhatsPulse/>
     </>
   )

@@ -1,4 +1,6 @@
 import * as C from './style'
+import { FaInstagram, FaWhatsapp } from "react-icons/fa6";
+import { IoMailUnreadOutline } from "react-icons/io5";
 
 function Footer() {
   return (
@@ -24,15 +26,15 @@ function Footer() {
         <C.Social>
           <h1>Contatos</h1>
           <div>
+            <FaInstagram className='iconsFooter' />
             <p>Instagram</p>
           </div>
           <div>
-            <p>Facebook</p>
-          </div>
-          <div>
+            <FaWhatsapp className='iconsFooter'/>
             <p>WhatsApp</p>
           </div>
           <div>
+            <IoMailUnreadOutline className='iconsFooter'/>
             <p>E-mail</p>
           </div>
         </C.Social>
@@ -57,11 +59,7 @@ function Footer() {
               
               src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=Rua Virgílio Gonçalves Capella, 502 - Cháraca Estância Paulista - CEP 08653-025 - Suzano - SP&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
             >
-              {/* Powered by{' '}
-              <a href="https://www.googlemapsgenerator.com">
-                html embed google maps
-              </a>{' '}
-              and <a href="https://yatzyregler.com/da/">yatzy blok</a> */}
+             
             </iframe>
           </div>
         </C.Endereco>

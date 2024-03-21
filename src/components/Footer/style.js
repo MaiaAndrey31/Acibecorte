@@ -9,6 +9,9 @@ export const Container = styled.div`
   h1, h3, p{
     color: ${theme.colors.white};
   }
+  h1 {
+    margin-bottom: 1rem;
+  }
 
   .contentFooter {
     display: grid;
@@ -18,6 +21,8 @@ export const Container = styled.div`
   justify-items: center;
   padding: 3rem 2rem;
   }
+
+  
 `
 
 
@@ -25,20 +30,39 @@ export const Container = styled.div`
 export const Sobre = styled.div``
 
 export const Servicos = styled.div`
-
+line-height: 2rem;
+letter-spacing: 0.09rem;
 `
 
-export const Social = styled.div``
+export const Social = styled.div`
+line-height: 2.5rem;
+letter-spacing: 0.09rem;
+
+.iconsFooter {
+    color: ${theme.colors.white};
+    font-size: 1.8rem;
+  }
+
+  div {
+    display: flex;
+    align-items:center;
+    gap: 0.7rem;
+  }
+`
 
 export const Endereco = styled.div`
 display: flex;
 width:100%;
 gap: 2rem;
+line-height: 2rem;
+letter-spacing: 0.09rem;
 
 .map_part{
     min-height: 100%;
     min-width: 100%;
 }
+
+
 `
 
 export const Copy = styled.div`

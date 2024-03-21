@@ -42,11 +42,13 @@ function Services() {
         
         <C.ListBox>
         
-          <h6><span>➟</span> Corte Plasma CNC</h6>
-          <h6><span>➟</span> Oxicorte</h6>
-          <h6><span>➟</span> Dobra</h6>
-          <h6><span>➟</span> Caldeiraria Leve</h6>
-          <h6><span>➟</span> Projetos Especiais</h6>
+          <div>
+            <h6><span>➟</span> Corte Plasma CNC</h6>
+            <h6><span>➟</span> Oxicorte</h6>
+            <h6><span>➟</span> Dobra</h6>
+            <h6><span>➟</span> Caldeiraria Leve</h6>
+            <h6><span>➟</span> Projetos Especiais</h6>
+          </div>
         
         </C.ListBox>
 

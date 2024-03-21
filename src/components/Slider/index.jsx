@@ -13,11 +13,11 @@ function Slider() {
   return (
     <>
       <Swiper
-        modules={[Navigation, Pagination, Autoplay, Keyboard]}
-        autoplay={{
-          delay: 3500,
-          disableOnInteraction: false
-        }}
+        modules={[Navigation, Pagination, Keyboard]}
+        // autoplay={{
+        //   delay: 3500,
+        //   disableOnInteraction: false
+        // }}
         keyboard={{
           enabled: true
         }}

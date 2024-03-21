@@ -44,7 +44,7 @@ height: max-content;
 
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 2.2rem;
   font-weight: 600;
   padding: 2rem 4rem;
@@ -52,64 +52,56 @@ p {
 }
 `
 export const PartTwo = styled.div`
-
-display: flex;
-width: 100%;
-height: max-content;
-margin: 1rem 0 ;
-justify-content: space-around;
-align-items: center;
-
-
-
-/* div {
- 
-  border-right: 1px solid ${theme.colors.dark};
-  border-radius: none;
-} */
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  height: max-content;
+  margin: 1rem 0;
+  justify-content: space-around;
+  align-items: center;
 
   p {
-  font-size: 1.5rem;
-  line-height: 2.2rem;
-  font-weight: 600;
-  max-width: 35rem;
-  color: ${theme.colors.dark};
-  padding-top: 1rem;
-}
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 600;
+    max-width: 30rem;
+    color: ${theme.colors.dark};
+    padding-top: 1rem;
+  }
 `
 
 export const ListBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 450px;
 
-display: flex;
-flex-direction: column;
-justify-content: center;
-
-
-
-
-
-
-h6 {
-    font-size: 2.2rem;
-    line-height: 5rem;
-    color: ${theme.colors.primary};
-
-
+  div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
-span {
-  font-size: 2.7rem;
-}
 
+  h6 {
+    font-size: 1.6rem;
+    /* line-height: 5rem; */
+    color: ${theme.colors.primary};
+  }
+  span {
+    font-size: 2rem;
+  }
 `
 
 export const ImageService = styled.div`
-min-height: 29.25rem;
-min-width: 29.25rem;
+min-height: 20rem;
+min-width: 20rem;
 border-radius: 50%;
 
 opacity: 0.6;
 img {
-  height: 100%;
+  height:100%;
   width: 100%;
   border-radius: 50%;
   border: 1.3rem double ${theme.colors.secondary};

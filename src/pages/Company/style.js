@@ -4,8 +4,9 @@ import { theme } from '../../styles/theme'
 export const Container = styled.div`
   display: flex;
   gap: 1rem;
-  height: 100vh;
+  min-height: 100vh;
   align-items: center;
+  padding: 2rem 0;
   
   
   
@@ -41,7 +42,7 @@ export const Container = styled.div`
   }
 
   .content {
-    height: 80%;
+    min-height: 80%;
     width: 40.625rem;
     border: 0.3rem solid ${theme.colors.white};
     border-radius: 2rem;

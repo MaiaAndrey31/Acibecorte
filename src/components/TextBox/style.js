@@ -2,7 +2,8 @@ import { styled } from 'styled-components'
 import { theme } from '../../styles/theme'
 
 export const Container = styled.div`
-  height: 30rem;
+  /* height: 30rem; */
+  padding: 1rem;
   width: 30rem;
   border: 0.15rem solid ${theme.colors.dark};
   border-radius: 3rem;
@@ -19,7 +20,7 @@ export const Container = styled.div`
   }
 
   p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: ${theme.colors.black};
     padding: 1rem;
   }

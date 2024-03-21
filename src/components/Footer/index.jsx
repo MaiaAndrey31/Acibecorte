@@ -51,18 +51,17 @@ function Footer() {
             <iframe
               id="map-canvas"
               className="map_part"
-              width="100%"
-              height="100%"
+             
               frameBorder="0"
               
               
               src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=Rua Virgílio Gonçalves Capella, 502 - Cháraca Estância Paulista - CEP 08653-025 - Suzano - SP&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
             >
-              Powered by{' '}
+              {/* Powered by{' '}
               <a href="https://www.googlemapsgenerator.com">
                 html embed google maps
               </a>{' '}
-              and <a href="https://yatzyregler.com/da/">yatzy blok</a>
+              and <a href="https://yatzyregler.com/da/">yatzy blok</a> */}
             </iframe>
           </div>
         </C.Endereco>

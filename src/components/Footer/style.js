@@ -12,7 +12,7 @@ export const Container = styled.div`
 
   .contentFooter {
     display: grid;
-  grid-template-columns: 1fr 1fr 1fr 2.5fr;
+  grid-template-columns: 1fr 1fr 1fr 1.7fr;
   grid-gap: 1.5rem;
   align-content: center;
   justify-items: center;
@@ -22,11 +22,11 @@ export const Container = styled.div`
 
 
 
-export const Sobre = styled.div`
+export const Sobre = styled.div``
+
+export const Servicos = styled.div`
 
 `
-
-export const Servicos = styled.div``
 
 export const Social = styled.div``
 
@@ -35,17 +35,17 @@ display: flex;
 width:100%;
 gap: 2rem;
 
-.maps {
-    min-width: 50%;
-    min-height:50%;
+.map_part{
+    min-height: 100%;
+    min-width: 100%;
 }
 `
 
 export const Copy = styled.div`
 height: 4rem;
 width: 100%;
-/* background-color: ${theme.colors.dark}; */
-background-color: #0f0f6edc;
+border-top: 1px solid ${theme.colors.white};
+background-color: ${theme.colors.black};
 display: flex;
 align-items: center;
 justify-content: center;

@@ -14,7 +14,7 @@ export const Container = styled.div`
   }
 
   .contentFooter {
-    display: grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1.7fr;
   grid-gap: 1.5rem;
   align-content: center;

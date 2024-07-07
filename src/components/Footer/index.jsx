@@ -1,6 +1,6 @@
+import { FaInstagram, FaWhatsapp } from 'react-icons/fa6'
+import { IoMailUnreadOutline } from 'react-icons/io5'
 import * as C from './style'
-import { FaInstagram, FaWhatsapp } from "react-icons/fa6";
-import { IoMailUnreadOutline } from "react-icons/io5";
 
 function Footer() {
   return (
@@ -26,15 +26,15 @@ function Footer() {
         <C.Social>
           <h1>Contatos</h1>
           <div>
-            <FaInstagram className='iconsFooter' />
+            <FaInstagram className="iconsFooter" />
             <p>Instagram</p>
           </div>
           <div>
-            <FaWhatsapp className='iconsFooter'/>
+            <FaWhatsapp className="iconsFooter" />
             <p>WhatsApp</p>
           </div>
           <div>
-            <IoMailUnreadOutline className='iconsFooter'/>
+            <IoMailUnreadOutline className="iconsFooter" />
             <p>E-mail</p>
           </div>
         </C.Social>
@@ -53,14 +53,9 @@ function Footer() {
             <iframe
               id="map-canvas"
               className="map_part"
-             
               frameBorder="0"
-              
-              
               src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=Rua Virgílio Gonçalves Capella, 502 - Cháraca Estância Paulista - CEP 08653-025 - Suzano - SP&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-            >
-             
-            </iframe>
+            ></iframe>
           </div>
         </C.Endereco>
       </div>

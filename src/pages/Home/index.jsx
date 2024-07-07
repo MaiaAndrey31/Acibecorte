@@ -1,3 +1,5 @@
+/*ACIBECORTE */
+
 import  Header  from "../../components/Header";
 import Slider from "../../components/Slider";
 import {Container} from './style.js'
